@@ -8,6 +8,7 @@
 - REACT JS
 - AXIOS
 - MATERIAL UI
+- REDUX
 
 ## Installation
 
