@@ -1,161 +1,74 @@
-// import React from 'react'
-// import Container from '@material-ui/core/Container';
-// import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
-// import Link from '@material-ui/core/Link';
-// import { makeStyles } from '@material-ui/core';
-
-
-// const useStyles = makeStyles((theme) => ({
-
-//     footer: {
-//         display: "flex",
-//         background: "rgb(63 81 181)",
-//         height: "50px",
-//         width: "auto",
-//         alignItems: "center",
-//         justifyContent: "center",
-//         color: "#ffffff",
-//       }
-    
-// }))
-
-
-
-// const Footer = () => {
-//     const classes = useStyles();
-//     return (
-
-//         <footer  >
-//             <Box
-//             px={{xs: 3, sm: 10}}
-//             py={{xs: 5, sm: 10}} 
-//              color='white' className={classes.footer}>
-//                 <Container>
-//                     <Grid container spacing={5} >
-//                         <Grid item xs={12} sm={4} >
-//                             <Box borderBottom={1}>Help</Box>
-//                             <Box>
-//                                 <Link href='/' color='inherit' >
-//                                     contact
-//                                 </Link>
-//                             </Box>
-//                             <Box>
-//                                 <Link href='/' color='inherit' >
-//                                     Support
-//                                 </Link>
-//                             </Box>
-//                             <Box>
-//                                 <Link href='/' color='inherit' >
-//                                     Privacy Policy
-//                                 </Link>
-//                             </Box>
-//                         </Grid>
-
-
-//                         <Grid item xs={12} sm={4} >
-//                             <Box borderBottom={1}>Account</Box>
-//                             <Box>
-//                                 <Link href='/' color='inherit' >
-//                                     Login
-//                                 </Link>
-//                             </Box>
-//                             <Box>
-//                                 <Link href='/' color='inherit' >
-//                                     Signup
-//                                 </Link>
-//                             </Box>
-//                             <Box>
-//                                 <Link href='/' color='inherit' >
-//                                     Forget Password
-//                                 </Link>
-//                             </Box>
-//                         </Grid>
-//                         <Grid item xs={12} sm={4} >
-//                             <Box borderBottom={1}>Support</Box>
-//                             <Box>
-//                                 <Link href='/' color='inherit' >
-//                                     contact
-//                                 </Link>
-//                             </Box>
-//                             <Box>
-//                                 <Link href='/' color='inherit' >
-//                                     Support
-//                                 </Link>
-//                             </Box>
-//                             <Box>
-//                                 <Link href='/' color='inherit' >
-//                                     Privacy Policy
-//                                 </Link>
-//                             </Box>
-//                         </Grid>
-//                     </Grid>
-//                     <Box textAlign="center" 
-//                     pt={{xs: 5, sm:10}} pb={{xs: 5, sm: 0}} > Aeroscript Shopping &reg; {new Date().getFullYear()} </Box>
-//                 </Container>
-//             </Box>
-//         </footer>
-//     )
-// }
-
-// export default Footer
-
-
-
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Toolbar from '@material-ui/core/Toolbar';
+import {Link} from '@material-ui/core';
+import '../components/css/footer.css';
 
-
-
-const useStyles = makeStyles((theme) => ({
-//   text: {
-//     padding: theme.spacing(2, 2, 0),
-//   },
-//   paper: {
-//     paddingBottom: 50,
-//   },
-// //   list: {
-// //     marginBottom: theme.spacing(2),
-// //   },
-//   subheader: {
-//     backgroundColor: theme.palette.background.paper,
-//   },
-  appBar: {
-    top: 'auto',
-    bottom: 0,
-  },
-
-  box : {
-      textAlign: 'center',
-  }
-//   grow: {
-//     flexGrow: 1,
-//   },
-// //   fabButton: {
-// //     position: 'absolute',
-// //     zIndex: 1,
-// //     top: -30,
-// //     left: 0,
-// //     right: 0,
-// //     margin: '0 auto',
-// //   },
-}));
 
 export default function Footer() {
-  const classes = useStyles();
-
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <AppBar position="fixed" color="primary" className={classes.appBar}>
-        <Toolbar>
-          <div className={classes.grow} />
-          <Box className={classes.box} > Aeroscript Shopping &reg; {new Date().getFullYear()} </Box>
-        </Toolbar>
-      </AppBar>
-    </React.Fragment>
+    <div className="footer">
+      <div className="inner-footer">
+
+        <div className="footer-items">
+          <h1>Aeroscript</h1>
+          <p>Mail Us:</p>
+          <p>Aeroscript Internet Private Limited,</p>
+          <p>210 New Street Varanasi &</p>
+          <p>Uttar Pradesh East</p>
+          <p>Pin Code: 232101</p>
+        </div>
+
+        <div className="footer-items">
+          <h3>About</h3>
+          <div className="border1"></div>
+          <ul>
+            {/* <Link style={{textDecoration: 'none', }} href="/about" ><li> About Us</li></Link> */}
+            <a href="/about"><li>About Us</li></a>
+            <a href="/contact"><li>Contact Us</li></a>
+            <a href="/stories"><li>Aeroscript Stroies</li></a>
+            <a href="/press"><li>Press</li></a>
+            <a href="/wholesale"><li>Aeroscript Wholesales</li></a>
+            <a href="/corporate"><li>Coporate Information</li></a>
+          </ul>
+        </div>
+
+        <div className="footer-items">
+          <h3>Policy</h3>
+          <div className="border1"></div>
+          <ul>
+            <a href="/returnpolicy"><li>Return Policy</li></a>
+            <a href="/terms"><li>Terms Of Use</li></a>
+            <a href="/security"><li>Security</li></a>
+            <a href="/privacy"><li>Privacy</li></a>
+            <a href="/sitemap"><li>Sitemap</li></a>
+            <a href="/erp"><li>ERP Policy</li></a>
+          </ul>
+        </div>
+
+
+        <div className="footer-items">
+          <h3>Help</h3>
+          <div className="border1"></div>
+          <ul>
+            <a href="/payments"><li>Payments</li></a>
+            <a href="/shipping"><li>Shipping</li></a>
+            <a href="/return"><li>Cancellation & Return</li></a>
+            <a href="/faq"><li>FAQ</li></a>
+            <a href="/report"><li>Report Infringement</li></a>
+          </ul>
+
+
+          <div className="social-media">
+            <a href="/"><i className="fab fa-instagram"></i></a>
+            <a href="/"><i className="fab fa-facebook"></i></a>
+            <a href="/"><i className="fab fa-google-plus-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="footer-bottom">
+        Aeroscript Shopping &reg; {new Date().getFullYear()}
+      </div>
+    </div>
   );
 }

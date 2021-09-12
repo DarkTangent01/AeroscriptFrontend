@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Legal = () => {
+const Stories = () => {
     return (
         <div>
-            Legal page
+            Stories page
         </div>
     )
 }
 
-export default Legal
+export default Stories

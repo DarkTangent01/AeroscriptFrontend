@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Helpcenter = () => {
+const Corporate = () => {
     return (
         <div>
-            Help center
+            Corporate page
         </div>
     )
 }
 
-export default Helpcenter
+export default Corporate

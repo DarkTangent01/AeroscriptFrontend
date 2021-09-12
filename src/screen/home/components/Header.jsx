@@ -77,6 +77,10 @@ const useStyles = makeStyles((theme) => ({
             display: 'none',
         },
     },
+    
+    appbar : {
+        backgroundColor: '#000080',
+    }
 }));
 
 export default function Header() {
@@ -163,7 +167,7 @@ export default function Header() {
 
     return (
         <div className={classes.grow}>
-            <AppBar position="fixed"  >
+            <AppBar position="fixed" className={classes.appbar} >
                 <Toolbar>
                     <Typography className={classes.title} variant="h6" noWrap>
                         Aeroscript Shopping
