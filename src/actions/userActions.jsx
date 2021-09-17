@@ -16,7 +16,7 @@ export const login = (email, password) => async (dispatch) => {
         const { data } = await axios.post("/api/user/login", { email, password }, config);
 
         dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
-        localStorage.setItem("userInfo", JSON.stringify(data));
+        sessionStorage.setItem("userInfo", JSON.stringify(data));
     } catch (error) {
         dispatch({
             type: USER_LOGIN_FAIL,
@@ -29,7 +29,7 @@ export const login = (email, password) => async (dispatch) => {
 // defined function remove userInfo from the localStroage and push to root of application
 
 export const logout = () => async (dispatch) => {
-    localStorage.removeItem("userInfo");
+    sessionStorage.removeItem("userInfo");
     dispatch({ type: USER_LOGIN_LOGOUT });
 };
 
@@ -50,7 +50,7 @@ export const register = (name, email, password) => async (dispatch) => {
         dispatch({ type: USER_REGISTER_SUCCESS, payload: data });
         dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
 
-        localStorage.setItem("userInfo", JSON.stringify(data));
+        sessionStorage.setItem("userInfo", JSON.stringify(data));
     } catch (error) {
         dispatch({
             type: USER_REGISTER_FAIL,

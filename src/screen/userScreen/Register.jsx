@@ -5,7 +5,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import Link from '@material-ui/core/Link';
+import {Link} from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
@@ -15,10 +15,11 @@ import Container from '@material-ui/core/Container';
 import { Helmet } from 'react-helmet';
 
 function Copyright() {
+    const classes = useStyles();
     return (
         <Typography variant="body2" color="textSecondary" align="center">
             {'Copyright © '}
-            <Link color="inherit" href="/">
+            <Link color="inherit" className={classes.bottomlink} to="/">
                 Aeroscript
             </Link>{' '}
             {new Date().getFullYear()}
@@ -40,13 +41,18 @@ const useStyles = makeStyles((theme) => ({
     },
     form: {
         width: '100%', // Fix IE 11 issue.
-        marginTop: theme.spacing(3),
+        marginTop: theme.spacing(1),
     },
     submit: {
         margin: theme.spacing(3, 0, 2),
     },
     link: {
         textDecoration: 'none',
+        color: 'blue'
+    },
+    bottomlink: {
+        textDecoration: 'none',
+        color: 'rgba(0, 0, 0, 0.54)'
     }
 }));
 
@@ -170,7 +176,7 @@ export default function Register() {
                     </Button>
                     <Grid container justifyContent="flex-end">
                         <Grid item>
-                            <Link className={classes.link} href="/user" variant="body2">
+                            <Link className={classes.link} to="/user" variant="body2">
                                 Already have an account? Sign in
                             </Link>
                         </Grid>

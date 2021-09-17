@@ -6,7 +6,7 @@ import Login from './screen/Login';
 import Register from './screen/userScreen/Register';
 import Userlogin from './screen/userScreen/Userlogin';
 import Home from './screen/home/Home';
-import Notfound from './screen/pages/404/Notfound';
+// import Notfound from './screen/pages/404/Notfound';
 import Corporate from './screen/pages/Corporate';
 import Cartpage from './screen/pages/Cartpage';
 import About from './screen/pages/About';
@@ -53,7 +53,7 @@ function App() {
           <Route exact path='/productsdetailes' component={ProductDetailes} />
           <Route exact path='/product' component={ProductPage} />
           <Route exact path='/contact' component={Contacts} />
-          <Route component={Notfound} />
+          {/* <Route component={Notfound} /> */}
         </Switch>
       </BrowserRouter>
     </div>

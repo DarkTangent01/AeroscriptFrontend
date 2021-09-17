@@ -16,7 +16,7 @@ export const admin_login = (email, password) => async (dispatch) => {
         const { data } = await axios.post("/api/user/login", { email, password }, config);
 
         dispatch({ type: ADMIN_LOGIN_SUCCESS, payload: data });
-        localStorage.setItem("adminInfo", JSON.stringify(data));
+        sessionStorage.setItem("adminInfo", JSON.stringify(data));
     } catch (error) {
         dispatch({
             type: ADMIN_LOGIN_FAIL,
@@ -28,7 +28,7 @@ export const admin_login = (email, password) => async (dispatch) => {
 
 // define function to remove adminInfo from the localstorage and push to root of application
 export const admin_logout = () => async (dispatch) => {
-    localStorage.removeItem("adminInfo");
+    sessionStorage.removeItem("adminInfo");
     dispatch({ type: ADMIN_LOGIN_LOGOUT });
 };
 
@@ -48,7 +48,7 @@ export const admin_register = (name, email, password) => async (dispatch) => {
         dispatch({ type: ADMIN_REGISTER_SUCCESS, payload: data });
         dispatch({ type: ADMIN_LOGIN_SUCCESS, payload: data });
 
-        localStorage.setItem("adminInfo", JSON.stringify(data));
+        sessionStorage.setItem("adminInfo", JSON.stringify(data));
 
     } catch (error) {
         dispatch({

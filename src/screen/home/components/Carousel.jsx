@@ -1,19 +1,35 @@
 import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+import { Carousel } from 'antd';
+import 'antd/dist/antd.css';
 
-const handleDragStart = (e) => e.preventDefault();
+const contentStyle = {
+  height: '24rem',
+  color: '#fff',
+  lineHeight: '23rem',
+  textAlign: 'center',
+  background: '#364d79',
+  marginBottom: '-0.5rem',
+};
 
-const items = [
-  <img src="https://source.unsplash.com/1600x400/?smartphones" onDragStart={handleDragStart} alt=""/>,
-  <img src="https://source.unsplash.com/1600x400/?laptops" onDragStart={handleDragStart} alt="" />,
-  <img src="https://source.unsplash.com/1600x400/?wireless-mouse" onDragStart={handleDragStart} alt="" />,
-];
-
-const Carousel = () => {
+const Carousell = () => {
   return (
-    <AliceCarousel mouseTracking items={items} />
-  );
+    <div>
+      <Carousel effect="fade">
+    <div>
+      <h3 style={contentStyle}>1</h3>
+    </div>
+    <div>
+      <h3 style={contentStyle}>2</h3>
+    </div>
+    <div>
+      <h3 style={contentStyle}>3</h3>
+    </div>
+    <div>
+      <h3 style={contentStyle}>4</h3>
+    </div>
+  </Carousel>
+    </div>
+  )
 }
 
-export default Carousel;
+export default Carousell

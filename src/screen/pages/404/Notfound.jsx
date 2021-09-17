@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import './notfound.css';
 
+
 const Notfound = () => {
+
     return (
         <>
             <Helmet>
