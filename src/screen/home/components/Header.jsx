@@ -82,7 +82,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
     appbar: {
-        backgroundColor: '#00121b',
+        backgroundColor: '#2874f0',
     },
     link: {
         color: '#fff !important'

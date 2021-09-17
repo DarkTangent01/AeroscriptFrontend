@@ -4,12 +4,14 @@ import Grid from "@material-ui/core/Grid";
 import CSSBaseline from '@material-ui/core/CssBaseline';
 import { Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
+// import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 5,
-    backgroundColor: "#00121b",
+    // backgroundColor: "#00121b",
+    backgroundColor: "#172337",
     // borderTop: "solid 3px #8B4513",
     padding: '41px 16px 0 8px',
   },
@@ -17,22 +19,26 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "rgba(0, 0, 0, 0.1)",
   },
   paragraph: {
-    color: "#fff",
+    color: "silver",
     borderBottom: 'solid',
     borderBottomColor: '#FFA500',
     width: '2rem',
     fontSize: '14px',
-    left: '13px'
+    left: '13px',
+    // fontFamily: 'Comic Neue, cursive',
+
   },
   companynameIntro: {
     color: "#fff",
-    marginTop: '12px'
+    marginTop: '12px',
+    fontSize: '12px'
   },
   companyname: {
-    display: 'flex',
     color: "#ffff",
     fontSize: '15px',
-    justifyContent: 'center'
+    borderBottom: 'solid',
+    borderBottomColor: '#FFA500',
+    width: '11rem',
   },
   footername: {
     color: "#ffff",
@@ -105,15 +111,18 @@ export default function Footer() {
           <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Instagram </Link> </Typography>
           <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Twitter </Link> </Typography>
         </Grid>
+
         <Grid item xs={12} sm={2}>
           <Typography className={classes.companyname}>
-            Registred Office Address
+            Registred Office Address:
           </Typography>
           <Typography className={classes.companynameIntro}>
             Aeroscript Internet Private Limited,<br/>
             210 New Street Varanasi,<br/>
             Uttar Pradesh East,<br/>
             Pincode 232101<br/>
+            CIN: UI2652448699874<br/>
+            Telephone: 180023242526
           </Typography>
         </Grid>
         <Grid item xs={12} sm={2}>
