@@ -21,7 +21,8 @@ const useStyles = makeStyles((theme) => ({
     borderBottom: 'solid',
     borderBottomColor: '#FFA500',
     width: '2rem',
-    fontSize: '20px'
+    fontSize: '14px',
+    left: '13px'
   },
   companynameIntro: {
     color: "#fff",
@@ -30,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
   companyname: {
     display: 'flex',
     color: "#ffff",
-    fontSize: '47px',
+    fontSize: '15px',
     justifyContent: 'center'
   },
   footername: {
@@ -52,7 +53,8 @@ const useStyles = makeStyles((theme) => ({
   },
   navigation: {
     color: 'white', 
-    marginTop: '10px'
+    marginTop: '10px',
+    fontSize: '14px'
   },
 }));
 
@@ -63,41 +65,29 @@ export default function Footer() {
     <div className={classes.root}>
       <CSSBaseline/>
       <Grid container spacing={3}>
-        <Grid item xs={12} sm={3}>
-          <Typography className={classes.companyname}>
-            Aeroscript
-          </Typography>
-          <Typography className={classes.companynameIntro}>
-            Mail Us:<br/>
-            Aeroscript Internet Private Limited,
-            210 New Street Varanasi,
-            Uttar Pradesh East,
-            Pincode 232101
-          </Typography>
-        </Grid>
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={2}>
           <Typography className={classes.paragraph}>
             About
           </Typography>
           <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > About US </Link> </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Contact Us </Link> </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Aeroscript Stories </Link> </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Press </Link> </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Aeroscript Wholesales </Link> </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Corporate Information </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/contact' className={classes.link} > Contact Us </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/stories' className={classes.link} > Aeroscript Stories </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/press' className={classes.link} > Press </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/wholesales' className={classes.link} > Aeroscript Wholesales </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/corporateinformation' className={classes.link} > Corporate Information </Link> </Typography>
         </Grid>
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={2}>
           <Typography className={classes.paragraph}>
             Policy
           </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Return Policy </Link> </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Terms Of Use </Link> </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Security </Link> </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Privacy </Link> </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Sitemap </Link> </Typography>
-          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > ERP Policy </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/returnpolicy' className={classes.link} > Return Policy </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/terms' className={classes.link} > Terms Of Use </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/security' className={classes.link} > Security </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/privacy' className={classes.link} > Privacy </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/sitemap' className={classes.link} > Sitemap </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/erp' className={classes.link} > ERP Policy </Link> </Typography>
         </Grid>
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={2}>
           <Typography className={classes.paragraph}>
             Help
           </Typography>
@@ -106,6 +96,36 @@ export default function Footer() {
           <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Cancellation & Return </Link> </Typography>
           <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > FAQ </Link> </Typography>
           <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Report Infringement</Link> </Typography>
+        </Grid>
+        <Grid item xs={12} sm={2}>
+          <Typography className={classes.paragraph}>
+            Social
+          </Typography>
+          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Facebook </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Instagram </Link> </Typography>
+          <Typography className={classes.navigation} > <Link to='/about' className={classes.link} > Twitter </Link> </Typography>
+        </Grid>
+        <Grid item xs={12} sm={2}>
+          <Typography className={classes.companyname}>
+            Registred Office Address
+          </Typography>
+          <Typography className={classes.companynameIntro}>
+            Aeroscript Internet Private Limited,<br/>
+            210 New Street Varanasi,<br/>
+            Uttar Pradesh East,<br/>
+            Pincode 232101<br/>
+          </Typography>
+        </Grid>
+        <Grid item xs={12} sm={2}>
+        <Typography className={classes.companyname}>
+            Mail Us:
+          </Typography>
+        <Typography className={classes.companynameIntro}>
+            Aeroscript Internet Private Limited,<br/>
+            210 New Street Varanasi,<br/>
+            Uttar Pradesh East,<br/>
+            Pincode 232101<br/>
+          </Typography>
         </Grid>
         <Grid className={classes.subFooter} item xs={12}>
           <Typography className={classes.footername}>
