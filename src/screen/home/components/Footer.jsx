@@ -4,28 +4,26 @@ import Grid from "@material-ui/core/Grid";
 import CSSBaseline from '@material-ui/core/CssBaseline';
 import { Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
-// import Divider from '@material-ui/core/Divider';
+import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 5,
-    // backgroundColor: "#00121b",
     backgroundColor: "#172337",
-    // borderTop: "solid 3px #8B4513",
     padding: '41px 16px 0 8px',
   },
   subFooter: {
     backgroundColor: "rgba(0, 0, 0, 0.1)",
   },
   paragraph: {
-    color: "silver",
+    color: "#7393B3	",
     borderBottom: 'solid',
     borderBottomColor: '#FFA500',
     width: '2rem',
     fontSize: '14px',
     left: '13px',
-    // fontFamily: 'Comic Neue, cursive',
+    fontFamily: 'Roboto, sans-serif',
 
   },
   companynameIntro: {
@@ -41,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     width: '11rem',
   },
   footername: {
-    color: "#ffff",
+    color: "#fff",
     display: "flex",
     justifyContent: "space-evenly",
     alignItems: "center",
@@ -55,13 +53,15 @@ const useStyles = makeStyles((theme) => ({
     '&:hover': {
       color: '#ff9800'
     },
-    letterSpacing: '1px',
   },
   navigation: {
     color: 'white', 
     marginTop: '10px',
-    fontSize: '14px'
+    fontSize: '12px'
   },
+  divider:{
+    width: '15px'
+  }
 }));
 
 export default function Footer() {
@@ -70,7 +70,7 @@ export default function Footer() {
   return (
     <div className={classes.root}>
       <CSSBaseline/>
-      <Grid container spacing={3}>
+      <Grid container spacing={2}>
         <Grid item xs={12} sm={2}>
           <Typography className={classes.paragraph}>
             About
@@ -136,6 +136,7 @@ export default function Footer() {
             Pincode 232101<br/>
           </Typography>
         </Grid>
+        <Divider className={classes.divider} />
         <Grid className={classes.subFooter} item xs={12}>
           <Typography className={classes.footername}>
             Aeroscript Shopping &reg; {new Date().getFullYear()}
