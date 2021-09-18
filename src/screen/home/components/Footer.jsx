@@ -17,7 +17,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "rgba(0, 0, 0, 0.1)",
   },
   paragraph: {
-    color: "#7393B3	",
+    color: "#C0C0C0",
+    marginRight: '13px',
     borderBottom: 'solid',
     borderBottomColor: '#FFA500',
     width: '2rem',
@@ -34,9 +35,6 @@ const useStyles = makeStyles((theme) => ({
   companyname: {
     color: "#ffff",
     fontSize: '15px',
-    borderBottom: 'solid',
-    borderBottomColor: '#FFA500',
-    width: '11rem',
   },
   footername: {
     color: "#fff",

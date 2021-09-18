@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
       },
       btn: {
           fontSize: '14px',
-          color: 'black!important'
+          color: 'black !important'
       }
 }))
 
