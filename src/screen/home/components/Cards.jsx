@@ -20,8 +20,8 @@ const useStyles = makeStyles({
     margin: "0 10px 12px",
   },
   Typography: {
-    fontSize: '16px'
-  }
+    fontSize: "16px",
+  },
 });
 
 export default function Cards({ image, title, description, view, url }) {
@@ -31,19 +31,20 @@ export default function Cards({ image, title, description, view, url }) {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
-          height="200"
-          width="140"
+          alt="aeroscript_products"
+          height="220"
           image={image}
-          title="Contemplative Reptile"
+          title="aeroscript_products"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2" className={classes.Typography} >
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="h2"
+            className={classes.Typography}
+          >
             {title}
           </Typography>
-          {/* <Typography variant="body2" color="textSecondary" component="p">
-            {description}
-          </Typography> */}
         </CardContent>
       </CardActionArea>
       <CardActions>

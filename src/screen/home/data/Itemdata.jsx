@@ -1,8 +1,8 @@
-import image1 from '../../../images/image1.jpg';
-import image2 from '../../../images/image2.jpg';
-import image3 from '../../../images/image3.jpg';
-import image4 from '../../../images/image4.jpeg';
-import image5 from '../../../images/image5.jpeg';
+import image1 from '../../../images/fashion.png';
+import image2 from '../../../images/appliances.png';
+import image3 from '../../../images/home.png';
+import image4 from '../../../images/electronic.png';
+import image5 from '../../../images/grocery.png';
 
 const itemData = [
     {
@@ -23,7 +23,7 @@ const itemData = [
     },
     {
         img: image3,
-        title: 'Travel',
+        title: 'Home',
         author: 'author',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam illo quidem aspernatur reprehenderit corporis dolores earum, praesentium error perferendis at repellat id quis?',
         url: '/product',
