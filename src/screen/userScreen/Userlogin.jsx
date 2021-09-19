@@ -3,8 +3,6 @@ import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
 import {Link} from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
@@ -63,6 +61,12 @@ const useStyles = makeStyles((theme) => ({
     bottomlink: {
         textDecoration: 'none',
         color: 'rgba(0, 0, 0, 0.54)'
+    },
+    Typography: {
+        display: 'flex',
+        justifyContent: 'center',
+        marginTop: '5px',
+        marginBottom: '5px'
     }
 }));
 
@@ -110,12 +114,10 @@ export default function Userlogin() {
                     to continue to Aeroscript E-commerce
                 </p>
 
-                {/* <Alert severity="error">{emailError}</Alert> */}
-
                 {error && <ErrorMessage > {error} </ErrorMessage>}
                 {loading && <Loading />}
 
-                <form className={classes.form} noValidate onSubmit={submitHandler} >
+                <form className={classes.form} Validate onSubmit={submitHandler} >
                     <TextField
                         variant="outlined"
                         margin="normal"
@@ -138,10 +140,6 @@ export default function Userlogin() {
                         id="password"
                         autoComplete="current-password"
                     />
-                    <FormControlLabel
-                        control={<Checkbox value="remember" color="primary" />}
-                        label="Remember me"
-                    />
                     <Button
                         type="submit"
                         fullWidth
@@ -150,6 +148,17 @@ export default function Userlogin() {
                         className={classes.submit}
                     >
                         Sign In
+                    </Button>
+                    <Typography className={classes.Typography} >OR</Typography>
+                    <Button
+                        type="button"
+                        fullWidth
+                        variant="contained"
+                        color="secondary"
+                        className={classes.submit}
+                        onClick={ ()=> alert('otp has been sent to your registred mobile number')}
+                    >
+                        Request an OTP
                     </Button>
                     <Grid container>
                         <Grid item xs>

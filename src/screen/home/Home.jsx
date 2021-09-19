@@ -11,7 +11,7 @@ import Carousell from "./components/Carousel";
 import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import { Link } from "react-router-dom";
-import adsImage from '../../images/ads.jpg'
+import adsImage from "../../images/ads.jpg";
 import Tvitemlist from "./components/Tvitemlist";
 import { CssBaseline } from "@material-ui/core";
 
@@ -49,36 +49,39 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     color: theme.palette.text.secondary,
   },
+  innerGrid: {
+    flexGrow: 1,
+  },
   Typography: {
     display: "flex",
     justifyContent: "flex-start",
     color: "black",
-    fontWeight: '700',
+    fontWeight: "700",
     fontSize: "20px",
     marginBottom: "2rem",
   },
   TypographyRemain: {
     display: "flex",
     justifyContent: "flex-start",
-    fontWeight: '700',
+    fontWeight: "700",
     color: "black",
     fontSize: "20px",
     marginBottom: "2rem",
   },
   Button: {
-    top: "-4rem",
-    left: "30rem",
+    // top: "-4rem",
+    left: "10rem",
     [theme.breakpoints.between("sm", "md")]: {
       left: "11rem",
     },
     color: "#fff",
   },
   ButtonRem: {
-    top: "-4rem",
-    left: "41rem",
-    [theme.breakpoints.between("sm", "md")]: {
-      left: "11rem",
-    },
+    // top: "-4rem",
+    left: "10rem",
+    // [theme.breakpoints.between("sm", "md")]: {
+    //   left: "11rem",
+    // },
     color: "#fff",
     marginBottom: "-16px",
   },
@@ -92,89 +95,111 @@ const useStyles = makeStyles((theme) => ({
   },
   adsImage: {
     width: 300,
-    margin: 'auto',
-    height: 480
-  }
+    margin: "auto",
+    height: 480,
+  },
 }));
 
 const Home = () => {
   const classes = useStyles();
-    return (
-      <>
-        <Helmet>
-          <title>Aeroscript</title>
-        </Helmet>
-        <Header />
-        <main className={classes.content}>
-          <Paper elevation={3} className={classes.dropdown}>
-            <Menulist />
-          </Paper>
+  return (
+    <>
+      <Helmet>
+        <title>Online Shopping Site in India: shop online for books, smartphones, smart Tvs, Watches</title>
+      </Helmet>
+      <Header />
+      <main className={classes.content}>
+        <Paper elevation={3} className={classes.dropdown}>
+          <Menulist />
+        </Paper>
 
-          <Paper elevation={3} className={classes.carousel}>
-            <Carousell />
-          </Paper>
+        <Paper elevation={3} className={classes.carousel}>
+          <Carousell />
+        </Paper>
 
-          <div className={classes.grid}>
-          <CssBaseline/>
-            <Grid container spacing={6}>
-              <Grid item xs={12} sm={9}>
-                <Paper className={classes.paper}>
-                  <Typography className={classes.Typography} component="p">
-                    Deal of the Day
-                  </Typography>
-                  <Button
-                    variant="contained"
-                    color="secondary"
-                    component={Link}
-                    to="/viewall"
-                    className={classes.Button}
-                  >
-                    View all
-                  </Button>
-                  <Divider className={classes.Divider} />
-                  <Imagelist />
-                </Paper>
-              </Grid>
-              <Grid item xs={12} sm={3}>
-                <Paper className={classes.paper}>
-                  <img src={adsImage} className={classes.adsImage} alt="Advertisement" srcSet="" />
-                </Paper>
-              </Grid>
+        <div className={classes.grid}>
+          <CssBaseline />
+          <Grid container spacing={6}>
+            <Grid item xs={12} sm={9}>
+              <Paper className={classes.paper}>
+                <div className={classes.innerGrid}>
+                  <Grid container spacing={8}>
+                    <Grid item xs={6} sm={8}>
+                      <Typography className={classes.Typography} component="p">
+                        Deal of the Day
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={6} sm={3}>
+                      <Button
+                        variant="contained"
+                        color="secondary"
+                        component={Link}
+                        to="/viewall"
+                        className={classes.Button}
+                      >
+                        View all
+                      </Button>
+                    </Grid>
+                  </Grid>
+                </div>
+                <Divider className={classes.Divider} />
+                <Imagelist />
+              </Paper>
             </Grid>
-          </div>
-
-          <div className={classes.grid}>
-          <CssBaseline/>
-            <Grid container spacing={6}>
-              <Grid item xs={12}>
-                <Paper className={classes.paper}>
-                  <Typography
-                    className={classes.TypographyRemain}
-                    component="p"
-                  >
-                    Shop for TVs
-                  </Typography>
-                  <Button
-                    variant="contained"
-                    color="secondary"
-                    component={Link}
-                    to="/viewall"
-                    className={classes.ButtonRem}
-                  >
-                    View all
-                  </Button>
-                  <Divider className={classes.DividerRemain} />
-                  <Tvitemlist  />
-                </Paper>
-              </Grid>
+            <Grid item xs={12} sm={3}>
+              <Paper className={classes.paper}>
+                <img
+                  src={adsImage}
+                  className={classes.adsImage}
+                  alt="Advertisement"
+                  srcSet=""
+                />
+              </Paper>
             </Grid>
-          </div>
-        </main>
-        <footer>
-          <Footer />
-        </footer>
-      </>
-    );
+          </Grid>
+        </div>
+
+        <div className={classes.grid}>
+          <CssBaseline />
+          <Grid container spacing={6}>
+            <Grid item xs={12}>
+              <Paper className={classes.paper}>
+                <div className={classes.innerGrid}>
+                  <Grid container spacing={8}>
+                    <Grid item xs={6} sm={8}>
+                      <Typography
+                        className={classes.TypographyRemain}
+                        component="p"
+                      >
+                        Shop for TVs
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={6} sm={4}>
+                      <Button
+                        variant="contained"
+                        color="secondary"
+                        component={Link}
+                        to="/viewall"
+                        className={classes.ButtonRem}
+                      >
+                        View all
+                      </Button>
+                    </Grid>
+                  </Grid>
+                </div>
+
+                <Divider className={classes.DividerRemain} />
+                <Tvitemlist />
+              </Paper>
+            </Grid>
+          </Grid>
+        </div>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
+  );
 };
 
 export default Home;
