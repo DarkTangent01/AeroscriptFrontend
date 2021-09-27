@@ -28,7 +28,7 @@ import Contacts from './screen/pages/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <BrowserRouter>
         <Switch>
           <Route exact path='/' component={Home} />
@@ -56,7 +56,7 @@ function App() {
           {/* <Route component={Notfound} /> */}
         </Switch>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

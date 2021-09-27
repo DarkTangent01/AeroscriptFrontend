@@ -11,17 +11,37 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 300,
+    transition: '0.3s',
+    boxShadow: '0 8px 40px -12px rgba(0,0,0,0.3)',
+    "&:hover": {
+      boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)"
+    }
+
   },
 
   Cards: {
-    width: "200%",
+    width: "300",
     color: "#fff",
-    margin: "0 10px 12px",
+    margin: "16px 7px 15px auto",
+    
   },
   Typography: {
     fontSize: "16px",
+    color: 'black',
+    fontWeight: 'bold'
   },
+  Button: {
+    backgroundColor: '#ff0038',
+    fontWeight: 'bold',
+    "&:hover": {
+      backgroundColor: '#D9534F',
+    }
+  },
+  btnextra:{
+    display: 'flex',
+    justifyContent: 'space-evenly'
+  }
 });
 
 export default function Cards({ image, title, description, view, url }) {
@@ -30,6 +50,7 @@ export default function Cards({ image, title, description, view, url }) {
     <Card className={[classes.Cards, classes.root]}>
       <CardActionArea>
         <CardMedia
+          style={{height: '100%', width: '100%' }}
           component="img"
           alt="aeroscript_products"
           height="220"
@@ -47,11 +68,11 @@ export default function Cards({ image, title, description, view, url }) {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button component={Link} to={view} size="small" color="primary">
+      <CardActions className={classes.btnextra} >
+        <Button className={classes.Button} component={Link} to={view} size="small">
           View
         </Button>
-        <Button component={Link} to={url} size="small" color="primary">
+        <Button className={classes.Button} component={Link} to={url} size="small"  >
           Buy Now
         </Button>
       </CardActions>

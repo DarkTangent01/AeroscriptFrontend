@@ -13,6 +13,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     paddingTop: '0px',
   },
+  slider: {
+    marginLeft: '2px',
+    marginRight: '2px'
+  }
 }));
 
 const breakPoints = [
@@ -27,7 +31,7 @@ export default function Tvitemlist() {
 
   return (
     <div className={classes.root}>
-      <Carousel breakPoints={breakPoints}>
+      <Carousel className={classes.slider} breakPoints={breakPoints} pagination={false}>
         {
           tvitemData.map((items) => (
             <Cards image={items.img} title={items.title} description={items.description} url={items.url} view={items.view} />

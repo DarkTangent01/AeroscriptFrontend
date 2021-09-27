@@ -6,7 +6,7 @@ import image5 from '../../../images/grocery.png';
 
 const itemData = [
     {
-        img: image1,
+        img: image5,
         title: 'Fashion',
         author: 'author',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam illo quidem aspernatur reprehenderit corporis dolores earum, praesentium error perferendis at repellat id quis?',

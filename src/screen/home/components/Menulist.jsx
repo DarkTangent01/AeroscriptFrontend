@@ -6,25 +6,27 @@ import MenuItem from "@material-ui/core/MenuItem";
 import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 
-const useStyles = makeStyles(theme => ({
-    root: {
-        flexGrow: 1,
-      },
-      grid: {
-          display: 'flex',
-          padding: '5px !important',
-          justifyContent: 'space-evenly',
-          alignItems: 'center',
-          margin: 'auto',
-      },
-      mainMenu: {
-          marginTop: '50px',
-      },
-      btn: {
-          fontSize: '14px',
-          color: 'black !important'
-      }
-}))
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  grid: {
+    display: "flex",
+    padding: "0px !important",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+    margin: "auto",
+    marginInline: "15px",
+  },
+  mainMenu: {
+    marginTop: "50px",
+
+  },
+  btn: {
+    fontSize: "14px",
+    textTransform: 'none'
+  },
+}));
 
 const Menulist = () => {
   const classes = useStyles();
@@ -145,78 +147,173 @@ const Menulist = () => {
   return (
     <>
       <div className={classes.root}>
-        <Grid container spacing={3}>
+        <Grid container spacing={2}>
           <Grid className={classes.grid} item xs={6} sm={1}>
-          <Button className={classes.btn} component={Link} to="/offers">Top Offers</Button>
+            <Button className={classes.btn} component={Link} to="/offers">
+              Top Offers
+            </Button>
           </Grid>
           <Grid className={classes.grid} item xs={6} sm={1}>
-          <Button className={classes.btn} component={Link} to="/grocerystore">Grocery</Button>
+            <Button className={classes.btn} component={Link} to="/grocerystore">
+              Grocery
+            </Button>
           </Grid>
           <Grid className={classes.grid} item xs={6} sm={1}>
-          <Button className={classes.btn} component={Link} to="/mobilestore">Mobiles</Button>
-          </Grid>
-
-
-          <Grid className={classes.grid} item xs={6} sm={1}>
-          <Button className={classes.btn} aria-controls="simple-menu" aria-haspopup="true" onMouseOver={handleClick}>Fashion</Button>
-      <Menu className={classes.mainMenu} id="simple-menu" anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClick={handleClose}
-      >
-        {FashionItems.map((items) => (
-          <MenuItem component={Link} to={items.link} onClick={handleClose}>
-            {items.name}
-          </MenuItem>
-        ))}
-      </Menu>
+            <Button className={classes.btn} component={Link} to="/mobilestore">
+              Mobiles
+            </Button>
           </Grid>
 
           <Grid className={classes.grid} item xs={6} sm={1}>
-          <Button className={classes.btn} aria-controls="simple-menu" aria-haspopup="true" onMouseOver={handleClickItemforelectronics}>Electronics</Button>
-      <Menu className={classes.mainMenu} id="simple-menu" anchorEl={anchorE2} keepMounted open={Boolean(anchorE2)} onClick={handleCloseItemforelectronics}>
-        {ElectronicsItems.map((electronicsitem) => (
-          <MenuItem component={Link} to={electronicsitem.link} onClick={handleCloseItemforelectronics}>
-            {electronicsitem.name}
-          </MenuItem>
-        ))}
-      </Menu>
+            <Button
+              className={classes.btn}
+              aria-controls="simple-menu"
+              aria-haspopup="true"
+              onMouseOver={handleClick}
+            >
+              Fashion
+            </Button>
+            <Menu
+              className={classes.mainMenu}
+              id="simple-menu"
+              anchorEl={anchorEl}
+              keepMounted
+              open={Boolean(anchorEl)}
+              onClick={handleClose}
+            >
+              {FashionItems.map((items) => (
+                <MenuItem
+                  component={Link}
+                  to={items.link}
+                  onClick={handleClose}
+                >
+                  {items.name}
+                </MenuItem>
+              ))}
+            </Menu>
           </Grid>
 
           <Grid className={classes.grid} item xs={6} sm={1}>
-          <Button className={classes.btn} aria-controls="simple-menu" aria-haspopup="true" onMouseOver={handleClickItemforhome}>Home</Button>
-      <Menu className={classes.mainMenu} id="simple-menu" anchorEl={anchorE3} keepMounted open={Boolean(anchorE3)} onClick={handleCloseItemforhome}>
-        {HomeItems.map((homeitem) => (
-          <MenuItem component={Link} to={homeitem.link} onClick={handleCloseItemforhome}>
-            {homeitem.name}
-          </MenuItem>
-        ))}
-      </Menu>
-          </Grid>
-          <Grid className={classes.grid} item xs={6} sm={1}>
-            <Button className={classes.btn} aria-controls="simple-menu" aria-haspopup="true" onMouseOver={handleClickItemforappliances}>Appliances</Button>
-      <Menu className={classes.mainMenu} id="simple-menu" anchorEl={anchorE4} keepMounted open={Boolean(anchorE4)} onClick={handleCloseItemforappliances}>
-        {AppliancesItems.map((appliancesitem) => (
-          <MenuItem component={Link} to={appliancesitem.link} onClick={handleCloseItemforappliances}>
-            {appliancesitem.name}
-          </MenuItem>
-        ))}
-      </Menu>
-          </Grid>
-          <Grid className={classes.grid} item xs={6} sm={1}>
-          <Button className={classes.btn} component={Link} to="/travels">Travels</Button>
+            <Button
+              className={classes.btn}
+              aria-controls="simple-menu"
+              aria-haspopup="true"
+              onMouseOver={handleClickItemforelectronics}
+            >
+              Electronics
+            </Button>
+            <Menu
+              className={classes.mainMenu}
+              id="simple-menu"
+              anchorEl={anchorE2}
+              keepMounted
+              open={Boolean(anchorE2)}
+              onClick={handleCloseItemforelectronics}
+            >
+              {ElectronicsItems.map((electronicsitem) => (
+                <MenuItem
+                  component={Link}
+                  to={electronicsitem.link}
+                  onClick={handleCloseItemforelectronics}
+                >
+                  {electronicsitem.name}
+                </MenuItem>
+              ))}
+            </Menu>
           </Grid>
 
           <Grid className={classes.grid} item xs={6} sm={1}>
-          <Button className={classes.btn} aria-controls="simple-menu" aria-haspopup="true" onMouseOver={handleClickItemforbeautytoysandmore}>Toys & More</Button>
-      <Menu className={classes.mainMenu} id="simple-menu" anchorEl={anchorE5} keepMounted open={Boolean(anchorE5)} onClick={handleCloseItemforbeautytoysandmore}>
-        {BeautytoysMore.map((beautytoymoreitem) => (
-          <MenuItem component={Link} to={beautytoymoreitem.link} onClick={handleCloseItemforbeautytoysandmore}>
-            {beautytoymoreitem.name}
-          </MenuItem>
-        ))}
-      </Menu>
+            <Button
+              className={classes.btn}
+              aria-controls="simple-menu"
+              aria-haspopup="true"
+              onMouseOver={handleClickItemforhome}
+            >
+              Home
+            </Button>
+            <Menu
+              className={classes.mainMenu}
+              id="simple-menu"
+              anchorEl={anchorE3}
+              keepMounted
+              open={Boolean(anchorE3)}
+              onClick={handleCloseItemforhome}
+            >
+              {HomeItems.map((homeitem) => (
+                <MenuItem
+                  component={Link}
+                  to={homeitem.link}
+                  onClick={handleCloseItemforhome}
+                >
+                  {homeitem.name}
+                </MenuItem>
+              ))}
+            </Menu>
+          </Grid>
+          <Grid className={classes.grid} item xs={6} sm={1}>
+            <Button
+              className={classes.btn}
+              aria-controls="simple-menu"
+              aria-haspopup="true"
+              onMouseOver={handleClickItemforappliances}
+            >
+              Appliances
+            </Button>
+            <Menu
+              className={classes.mainMenu}
+              id="simple-menu"
+              anchorEl={anchorE4}
+              keepMounted
+              open={Boolean(anchorE4)}
+              onClick={handleCloseItemforappliances}
+            >
+              {AppliancesItems.map((appliancesitem) => (
+                <MenuItem
+                  component={Link}
+                  to={appliancesitem.link}
+                  onClick={handleCloseItemforappliances}
+                >
+                  {appliancesitem.name}
+                </MenuItem>
+              ))}
+            </Menu>
+          </Grid>
+          <Grid className={classes.grid} item xs={6} sm={1}>
+            <Button className={classes.btn} component={Link} to="/travels">
+              Travels
+            </Button>
+          </Grid>
+
+          <Grid className={classes.grid} item xs={6} sm={1}>
+            <Button
+              className={classes.btn}
+              aria-controls="simple-menu"
+              aria-haspopup="true"
+              onMouseOver={handleClickItemforbeautytoysandmore}
+            >
+              More
+            </Button>
+            <Menu
+              className={classes.mainMenu}
+              id="simple-menu"
+              anchorEl={anchorE5}
+              keepMounted
+              open={Boolean(anchorE5)}
+              onClick={handleCloseItemforbeautytoysandmore}
+            >
+              {BeautytoysMore.map((beautytoymoreitem) => (
+                <MenuItem
+                  component={Link}
+                  to={beautytoymoreitem.link}
+                  onClick={handleCloseItemforbeautytoysandmore}
+                >
+                  {beautytoymoreitem.name}
+                </MenuItem>
+              ))}
+            </Menu>
           </Grid>
         </Grid>
       </div>
-      
     </>
   );
 };

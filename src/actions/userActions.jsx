@@ -36,7 +36,7 @@ export const logout = () => async (dispatch) => {
 
 // defined function help client to register details in the database and set localstroge with userinfo
 
-export const register = (name, email, password) => async (dispatch) => {
+export const register = (firstname, lastname,email, password, phoneNumber) => async (dispatch) => {
     try {
         dispatch({ type: USER_REGISTER_REQUEST });
         const config = {
@@ -45,7 +45,7 @@ export const register = (name, email, password) => async (dispatch) => {
             },
         };
 
-        const { data } = await axios.post("/api/user/register", { name, email, password }, config);
+        const { data } = await axios.post("/api/user/register", { firstname, lastname, email, password, phoneNumber }, config);
 
         dispatch({ type: USER_REGISTER_SUCCESS, payload: data });
         dispatch({ type: USER_LOGIN_SUCCESS, payload: data });

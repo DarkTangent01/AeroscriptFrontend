@@ -12,6 +12,10 @@ const useStyles = makeStyles((theme) => ({
     overflow: "hidden",
     backgroundColor: theme.palette.background.paper,
   },
+  slider: {
+    marginLeft: '2px',
+    marginRight: '2px'
+  }
 }));
 
 const breakPoints = [
@@ -26,7 +30,7 @@ export default function Imagelist() {
 
   return (
     <div className={classes.root}>
-      <Carousel breakPoints={breakPoints}>
+      <Carousel className={classes.slider} breakPoints={breakPoints} pagination={false} >
         {
           itemData.map((items) => (
             <Cards image={items.img} title={items.title} description={items.description} url={items.url} view={items.view} />
