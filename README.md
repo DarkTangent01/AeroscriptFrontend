@@ -197,7 +197,7 @@ UI Component → Action → Reducer → Store → API → State Update
 ## 👨‍💻 **Maintainers**
 
 **Author:** Mayank Srivastava
-**Role:** Lead Developer, UI/UX Architect
+**Role:** Security Engineer, UI/UX Architect
 
 ---
 
