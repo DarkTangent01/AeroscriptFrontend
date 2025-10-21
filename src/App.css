@@ -1,0 +1,16 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;        /* prevent 1px horizontal jiggle on some browsers */
+  background-color: #172337; /* <-- match footer bg so nothing shows beneath it */
+}
+
+/* optional but nice on short pages */
+#root {
+  display: flex;
+  flex-direction: column;
+}
+

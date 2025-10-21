@@ -1,157 +1,178 @@
+// Filename: Forgetpassword.jsx (MUI v5)
+
 import React from 'react';
-import Avatar from '@material-ui/core/Avatar';
-import Button from '@material-ui/core/Button';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
-import {Link} from 'react-router-dom';
-import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
 import { Helmet } from 'react-helmet';
+import { Link as RouterLink } from 'react-router-dom';
+
+import {
+  Avatar,
+  Box,
+  Button,
+  Checkbox,
+  Container,
+  CssBaseline,
+  FormControlLabel,
+  Grid,
+  TextField,
+  Typography,
+  Paper,
+  Link,
+} from '@mui/material';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 function Copyright() {
-    const classes = useStyles();
-    return (
-        <Typography variant="body2" color="textSecondary" align="center">
-            {'Copyright © '}
-            <Link color="inherit" className={classes.bottomlink} to="/">
-                Aeroscript
-            </Link>{' '}
-            {new Date().getFullYear()}
-            {'.'}
-        </Typography>
-    );
+  return (
+    <Typography variant="body2" color="text.secondary" align="center">
+      {'Copyright © '}
+      <Link component={RouterLink} color="inherit" to="/">
+        Aeroscript
+      </Link>{' '}
+      {new Date().getFullYear()}
+      {'.'}
+    </Typography>
+  );
 }
 
-const useStyles = makeStyles((theme) => ({
-    paper: {
-        marginTop: theme.spacing(8),
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-    },
-    avatar: {
-        margin: theme.spacing(1),
-        backgroundColor: theme.palette.secondary.main,
-    },
-    form: {
-        width: '100%', // Fix IE 11 issue.
-        marginTop: theme.spacing(3),
-    },
-    submit: {
-        margin: theme.spacing(3, 0, 2),
-    },
-    link: {
-        textDecoration: 'none',
-        color: 'blue'
-    },
-    bottomlink: {
-        textDecoration: 'none',
-        color: 'rgba(0, 0, 0, 0.54)'
-    }
-}));
-
 export default function Forgetpassword() {
-    const classes = useStyles();
+  return (
+    <Container component="main" maxWidth={false} disableGutters>
+      <Helmet>
+        <title>Aeroscript | Forget Password</title>
+      </Helmet>
+      <CssBaseline />
 
-    return (
-        <Container component="main" maxWidth="xs">
-            <div>
-                <Helmet>
-                    <title>
-                        Aeroscript | Forget Password
-                    </title>
-                </Helmet>
-            </div>
-            <CssBaseline />
-            <div className={classes.paper}>
-                <Avatar className={classes.avatar}>
-                    <LockOutlinedIcon />
-                </Avatar>
-                <Typography component="h1" variant="h5">
-                    Forget Password
-                </Typography>
-                <form className={classes.form} noValidate>
-                    <Grid container spacing={2}>
-                        <Grid item xs={12} sm={6}>
-                            <TextField
-                                autoComplete="fname"
-                                name="firstName"
-                                variant="outlined"
-                                required
-                                fullWidth
-                                id="firstName"
-                                label="First Name"
-                                autoFocus
-                            />
-                        </Grid>
-                        <Grid item xs={12} sm={6}>
-                            <TextField
-                                variant="outlined"
-                                required
-                                fullWidth
-                                id="lastName"
-                                label="Last Name"
-                                name="lastName"
-                                autoComplete="lname"
-                            />
-                        </Grid>
-                        <Grid item xs={12}>
-                            <TextField
-                                variant="outlined"
-                                required
-                                fullWidth
-                                id="email"
-                                label="Email Address"
-                                name="email"
-                                autoComplete="email"
-                            />
-                        </Grid>
-                        {/* <Grid item xs={12}>
-                            <TextField
-                                variant="outlined"
-                                required
-                                fullWidth
-                                name="password"
-                                label="Password"
-                                type="password"
-                                id="password"
-                                autoComplete="current-password"
-                            />
-                        </Grid> */}
-                        <Grid item xs={12}>
-                            <FormControlLabel
-                                control={<Checkbox value="allowExtraEmails" color="primary" />}
-                                label="I agree with terms &  conditions"
-                            />
-                        </Grid>
-                    </Grid>
-                    <Button
-                        type="submit"
-                        fullWidth
-                        variant="contained"
-                        color="secondary"
-                        className={classes.submit}
-                    >
-                        Reset Password
-                    </Button>
-                    <Grid container justifyContent="flex-end">
-                        <Grid item>
-                            <Link className={classes.link} to="/user" variant="body2">
-                                Remember password
-                            </Link>
-                        </Grid>
-                    </Grid>
-                </form>
-            </div>
-            <Box mt={5}>
-                <Copyright />
+      {/* Background + Centering */}
+      <Box
+        sx={{
+          minHeight: '100vh',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          px: 2,
+          background: (theme) =>
+            `linear-gradient(135deg, ${theme.palette.primary.light}22, ${theme.palette.secondary.light}33)`,
+        }}
+      >
+        {/* Card */}
+        <Paper
+          elevation={0}
+          sx={{
+            width: '100%',
+            maxWidth: { xs: 420, sm: 520 },
+            p: { xs: 3, sm: 5 },
+            borderRadius: 4,
+            boxShadow: '0 10px 25px rgba(0,0,0,0.08), 0 6px 8px rgba(0,0,0,0.05)',
+            bgcolor: 'background.paper',
+          }}
+        >
+          {/* Header */}
+          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <Box
+              sx={{
+                width: 64,
+                height: 64,
+                borderRadius: '50%',
+                mb: 2,
+                display: 'grid',
+                placeItems: 'center',
+                background: (theme) =>
+                  `linear-gradient(135deg, ${theme.palette.secondary.main}, ${theme.palette.secondary.dark})`,
+              }}
+            >
+              <Avatar sx={{ bgcolor: 'transparent', color: 'common.white' }}>
+                <LockOutlinedIcon />
+              </Avatar>
             </Box>
-        </Container>
-    );
+
+            <Typography component="h1" variant="h5" sx={{ fontWeight: 700 }}>
+              Forget Password
+            </Typography>
+
+            <Typography
+              variant="body2"
+              color="text.secondary"
+              sx={{ mt: 1, mb: 2.5, textAlign: 'center' }}
+            >
+              Enter your details to reset your password
+            </Typography>
+          </Box>
+
+          {/* Form */}
+          <Box component="form" noValidate sx={{ mt: 1 }}>
+            <Grid container spacing={2}>
+              <Grid item xs={12} sm={6}>
+                <TextField
+                  name="firstName"
+                  id="firstName"
+                  label="First Name"
+                  autoComplete="given-name"
+                  fullWidth
+                  required
+                  variant="outlined"
+                  autoFocus
+                />
+              </Grid>
+              <Grid item xs={12} sm={6}>
+                <TextField
+                  name="lastName"
+                  id="lastName"
+                  label="Last Name"
+                  autoComplete="family-name"
+                  fullWidth
+                  required
+                  variant="outlined"
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  name="email"
+                  id="email"
+                  label="Email Address"
+                  autoComplete="email"
+                  fullWidth
+                  required
+                  variant="outlined"
+                  type="email"
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <FormControlLabel
+                  control={<Checkbox color="primary" />}
+                  label="I agree with terms & conditions"
+                />
+              </Grid>
+            </Grid>
+
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="secondary"
+              size="large"
+              sx={{ mt: 3, mb: 2, py: 1.2, fontWeight: 600, borderRadius: 3, textTransform: 'none' }}
+            >
+              Reset Password
+            </Button>
+
+            <Grid container justifyContent="flex-end">
+              <Grid item>
+                <Link
+                  component={RouterLink}
+                  to="/user"
+                  underline="hover"
+                  sx={{ fontSize: 14 }}
+                >
+                  Remember password? Sign in
+                </Link>
+              </Grid>
+            </Grid>
+          </Box>
+
+          <Box sx={{ mt: 5 }}>
+            <Copyright />
+          </Box>
+        </Paper>
+      </Box>
+    </Container>
+  );
 }

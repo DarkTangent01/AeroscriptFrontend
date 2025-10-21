@@ -1,23 +1,10 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import tvitemData from "../data/Tvitemdata";
-import Carousel from "react-elastic-carousel";
-import Cards from "./Cards";
+// Filename: Tvitemlist.jsx (MUI v5)
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "space-evenly",
-    overflow: "hidden",
-    backgroundColor: theme.palette.background.paper,
-    paddingTop: '0px',
-  },
-  slider: {
-    marginLeft: '2px',
-    marginRight: '2px'
-  }
-}));
+import * as React from "react";
+import { Box } from "@mui/material";
+import Carousel from "react-elastic-carousel";
+import tvitemData from "../data/Tvitemdata";
+import Cards from "./Cards";
 
 const breakPoints = [
   { width: 500, itemsToShow: 1 },
@@ -27,17 +14,37 @@ const breakPoints = [
 ];
 
 export default function Tvitemlist() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
-      <Carousel className={classes.slider} breakPoints={breakPoints} pagination={false}>
-        {
-          tvitemData.map((items) => (
-            <Cards image={items.img} title={items.title} description={items.description} url={items.url} view={items.view} />
-          ))
-        }
+    <Box
+      sx={{
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "space-evenly",
+        overflow: "hidden",
+        bgcolor: "background.paper",
+        pt: 0,
+        px: { xs: 0.5, sm: 1 },
+        py: 1,
+      }}
+    >
+      <Carousel
+        breakPoints={breakPoints}
+        pagination={false}
+        itemPadding={[0, 6]} // vertical, horizontal padding per item
+        style={{ width: "100%", marginInline: "2px" }}
+      >
+        {tvitemData.map((item, idx) => (
+          <Box key={item.id ?? item.view ?? item.title ?? idx} sx={{ px: 0.5 }}>
+            <Cards
+              image={item.img}
+              title={item.title}
+              description={item.description}
+              url={item.url}
+              view={item.view}
+            />
+          </Box>
+        ))}
       </Carousel>
-    </div>
+    </Box>
   );
 }

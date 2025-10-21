@@ -1,0 +1,1652 @@
+yarn start
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+WARNING in [eslint] 
+src/components/adminComponent/Header.jsx
+  Line 33:8:  'FaceIcon' is defined but never used  no-unused-vars
+
+src/screen/home/components/Imagelist.jsx
+  Line 17:9:  'theme' is assigned a value but never used  no-unused-vars
+
+src/screen/home/data/Itemdata.jsx
+  Line 1:8:  'image1' is defined but never used  no-unused-vars
+
+ERROR in ./node_modules/@mui/icons-material/esm/AddCircle.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/AddShoppingCart.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/ChevronLeft.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/ChevronRight.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/ExitToApp.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/ExpandLess.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/ExpandMore.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/Face.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/Home.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/LockOutlined.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/Mail.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/MailOutline.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/Menu.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/MoreVert.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/MoveToInbox.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/Notifications.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/Person.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/Search.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/ShopTwo.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/ShoppingCart.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/Visibility.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/icons-material/esm/VisibilityOff.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/icons-material/esm'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Accordion/Accordion.js 18:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Accordion'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/AccordionActions/AccordionActions.js 10:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/AccordionActions'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/AccordionDetails/AccordionDetails.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/AccordionDetails'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/AccordionSummary/AccordionSummary.js 14:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/AccordionSummary'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Alert/Alert.js 21:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Alert'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/AlertTitle/AlertTitle.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/AlertTitle'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/AppBar/AppBar.js 14:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/AppBar'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Autocomplete/Autocomplete.js 28:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Autocomplete'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Avatar/Avatar.js 13:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Avatar'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/AvatarGroup/AvatarGroup.js 15:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/AvatarGroup'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Backdrop/Backdrop.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Backdrop'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Badge/Badge.js 16:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Badge'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/BottomNavigation/BottomNavigation.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/BottomNavigation'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/BottomNavigationAction/BottomNavigationAction.js 14:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/BottomNavigationAction'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Breadcrumbs/BreadcrumbCollapsed.js 10:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Breadcrumbs'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Breadcrumbs/Breadcrumbs.js 15:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Breadcrumbs'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Button/Button.js 20:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Button'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ButtonBase/ButtonBase.js 17:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ButtonBase'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ButtonBase/Ripple.js 10:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ButtonBase'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ButtonBase/TouchRipple.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ButtonBase'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ButtonGroup/ButtonGroup.js 16:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ButtonGroup'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Card/Card.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Card'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/CardActionArea/CardActionArea.js 13:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/CardActionArea'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/CardActions/CardActions.js 10:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/CardActions'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/CardContent/CardContent.js 10:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/CardContent'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/CardHeader/CardHeader.js 11:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/CardHeader'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/CardMedia/CardMedia.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/CardMedia'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Checkbox/Checkbox.js 20:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Checkbox'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Chip/Chip.js 18:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Chip'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/CircularProgress/CircularProgress.js 14:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/CircularProgress'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Collapse/Collapse.js 17:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Collapse'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/CssBaseline/CssBaseline.js 9:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/CssBaseline'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/DefaultPropsProvider/DefaultPropsProvider.js 6:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/DefaultPropsProvider'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Dialog/Dialog.js 19:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Dialog'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/DialogActions/DialogActions.js 10:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/DialogActions'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/DialogContent/DialogContent.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/DialogContent'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/DialogContentText/DialogContentText.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/DialogContentText'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/DialogTitle/DialogTitle.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/DialogTitle'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Divider/Divider.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Divider'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Drawer/Drawer.js 20:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Drawer'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Fab/Fab.js 15:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Fab'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Fade/Fade.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Fade'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/FilledInput/FilledInput.js 17:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/FilledInput'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/FormControl/FormControl.js 14:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/FormControl'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/FormControlLabel/FormControlLabel.js 17:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/FormControlLabel'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/FormGroup/FormGroup.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/FormGroup'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/FormHelperText/FormHelperText.js 15:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/FormHelperText'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/FormLabel/FormLabel.js 15:0-50
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/FormLabel'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/GlobalStyles/GlobalStyles.js 8:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/GlobalStyles'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/GridLegacy/GridLegacy.js 25:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/GridLegacy'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Grow/Grow.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Grow'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Icon/Icon.js 13:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Icon'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/IconButton/IconButton.js 17:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/IconButton'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ImageList/ImageList.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ImageList'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ImageListItem/ImageListItem.js 14:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ImageListItem'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ImageListItemBar/ImageListItemBar.js 12:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ImageListItemBar'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/InitColorSchemeScript/InitColorSchemeScript.js 4:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/InitColorSchemeScript'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Input/Input.js 16:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Input'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/InputAdornment/InputAdornment.js 16:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/InputAdornment'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/InputBase/InputBase.js 24:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/InputBase'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/InputLabel/InputLabel.js 16:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/InputLabel'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/LinearProgress/LinearProgress.js 14:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/LinearProgress'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Link/Link.js 17:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Link'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/List/List.js 11:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/List'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ListItem/ListItem.js 19:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ListItem'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ListItemAvatar/ListItemAvatar.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ListItemAvatar'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ListItemButton/ListItemButton.js 16:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ListItemButton'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ListItemIcon/ListItemIcon.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ListItemIcon'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ListItemSecondaryAction/ListItemSecondaryAction.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ListItemSecondaryAction'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ListItemText/ListItemText.js 13:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ListItemText'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ListSubheader/ListSubheader.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ListSubheader'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Menu/Menu.js 18:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Menu'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/MenuItem/MenuItem.js 19:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/MenuItem'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/MenuList/MenuList.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/MenuList'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/MobileStepper/MobileStepper.js 17:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/MobileStepper'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Modal/Modal.js 18:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Modal'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/NativeSelect/NativeSelect.js 14:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/NativeSelect'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/NativeSelect/NativeSelectInput.js 12:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/NativeSelect'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/OutlinedInput/NotchedOutline.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/OutlinedInput'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/OutlinedInput/OutlinedInput.js 18:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/OutlinedInput'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Pagination/Pagination.js 13:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Pagination'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/PaginationItem/PaginationItem.js 20:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/PaginationItem'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Paper/Paper.js 15:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Paper'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Popover/Popover.js 24:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Popover'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Popper/BasePopper.js 16:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Popper'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Popper/Popper.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Popper'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Radio/Radio.js 21:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Radio'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Radio/RadioButtonIcon.js 10:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Radio'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/RadioGroup/RadioGroup.js 13:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/RadioGroup'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Rating/Rating.js 21:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Rating'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ScopedCssBaseline/ScopedCssBaseline.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ScopedCssBaseline'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Select/Select.js 22:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Select'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Select/SelectInput.js 22:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Select'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Skeleton/Skeleton.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Skeleton'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Slide/Slide.js 18:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Slide'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Slider/Slider.js 21:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Slider'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Slider/SliderValueLabel.js 7:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Slider'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Snackbar/Snackbar.js 16:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Snackbar'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/SnackbarContent/SnackbarContent.js 13:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/SnackbarContent'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/SpeedDial/SpeedDial.js 21:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/SpeedDial'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/SpeedDialAction/SpeedDialAction.js 18:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/SpeedDialAction'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/SpeedDialIcon/SpeedDialIcon.js 12:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/SpeedDialIcon'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Step/Step.js 13:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Step'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/StepButton/StepButton.js 15:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/StepButton'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/StepConnector/StepConnector.js 14:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/StepConnector'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/StepContent/StepContent.js 15:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/StepContent'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/StepIcon/StepIcon.js 15:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/StepIcon'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/StepLabel/StepLabel.js 15:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/StepLabel'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Stepper/Stepper.js 13:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Stepper'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/SvgIcon/SvgIcon.js 12:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/SvgIcon'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/SwipeableDrawer/SwipeArea.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/SwipeableDrawer'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/SwipeableDrawer/SwipeableDrawer.js 23:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/SwipeableDrawer'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Switch/Switch.js 17:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Switch'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Tab/Tab.js 14:0-50
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Tab'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TabScrollButton/TabScrollButton.js 16:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TabScrollButton'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Table/Table.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Table'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TableBody/TableBody.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TableBody'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TableCell/TableCell.js 14:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TableCell'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TableContainer/TableContainer.js 10:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TableContainer'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TableFooter/TableFooter.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TableFooter'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TableHead/TableHead.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TableHead'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TablePagination/TablePagination.js 22:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TablePagination'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TablePaginationActions/TablePaginationActions.js 16:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TablePaginationActions'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TableRow/TableRow.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TableRow'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TableSortLabel/TableSortLabel.js 15:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TableSortLabel'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Tabs/ScrollbarSize.js 7:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Tabs'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Tabs/Tabs.js 23:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Tabs'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TextField/TextField.js 20:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TextField'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/TextareaAutosize/TextareaAutosize.js 10:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/TextareaAutosize'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ToggleButton/ToggleButton.js 19:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ToggleButton'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/ToggleButtonGroup/ToggleButtonGroup.js 17:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/ToggleButtonGroup'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Toolbar/Toolbar.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Toolbar'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Tooltip/Tooltip.js 24:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Tooltip'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Typography/Typography.js 13:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Typography'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Unstable_TrapFocus/FocusTrap.js 11:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Unstable_TrapFocus'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/Zoom/Zoom.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/Zoom'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/SwitchBase.js 15:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/Add.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/ArrowDownward.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/ArrowDropDown.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/Cancel.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/CheckBox.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/CheckBoxOutlineBlank.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/CheckCircle.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/Close.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/ErrorOutline.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/FirstPage.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/IndeterminateCheckBox.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/InfoOutlined.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/KeyboardArrowLeft.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/KeyboardArrowRight.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/LastPage.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/MoreHoriz.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/NavigateBefore.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/NavigateNext.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/Person.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/RadioButtonChecked.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/RadioButtonUnchecked.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/ReportProblemOutlined.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/Star.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/StarBorder.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/SuccessOutlined.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/internal/svg-icons/Warning.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/internal/svg-icons'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/styles/ThemeProvider.js 7:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/styles'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/styles/ThemeProviderNoVars.js 6:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/styles'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/styles/ThemeProviderWithVars.js 10:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/styles'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/utils/createSvgIcon.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/utils'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/material/esm/zero-styled/index.js 5:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/material/esm/zero-styled'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/private-theming/esm/ThemeProvider/ThemeProvider.js 9:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/private-theming/esm/ThemeProvider'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/styled-engine/esm/GlobalStyles/GlobalStyles.js 6:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/styled-engine/esm/GlobalStyles'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/styled-engine/esm/StyledEngineProvider/StyledEngineProvider.js 10:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/styled-engine/esm/StyledEngineProvider'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/Container/createContainer.js 12:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/Container'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/DefaultPropsProvider/DefaultPropsProvider.js 6:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/DefaultPropsProvider'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js 7:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/GlobalStyles'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/Grid/createGrid.js 16:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/Grid'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/InitColorSchemeScript/InitColorSchemeScript.js 5:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/InitColorSchemeScript'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/RtlProvider/index.js 5:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/RtlProvider'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/Stack/createStack.js 15:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/Stack'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js 12:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/ThemeProvider'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/ThemeProvider/useLayerOrder.js 11:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/ThemeProvider'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/createBox/createBox.js 8:0-48
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/createBox'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+ERROR in ./node_modules/@mui/system/esm/cssVars/createCssVarsProvider.js 11:0-63
+Module not found: Error: Can't resolve 'react/jsx-runtime' in '/Users/mayank.srivastava@zomato.com/Desktop/personal_project/AeroscriptFrontend/node_modules/@mui/system/esm/cssVars'
+Did you mean 'jsx-runtime.js'?
+BREAKING CHANGE: The request 'react/jsx-runtime' failed to resolve only because it was resolved as fully specified
+(probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+The extension in the request is mandatory for it to be fully specified.
+Add the extension to the request.
+
+webpack compiled with 204 errors and 1 warnin

@@ -1,22 +1,10 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import itemData from "../data/Itemdata";
-import Carousel from "react-elastic-carousel";
-import Cards from "./Cards";
+// Filename: Imagelist.jsx (MUI v5)
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "space-around",
-    overflow: "hidden",
-    backgroundColor: theme.palette.background.paper,
-  },
-  slider: {
-    marginLeft: '2px',
-    marginRight: '2px'
-  }
-}));
+import * as React from "react";
+import { Box, useTheme } from "@mui/material";
+import Carousel from "react-elastic-carousel";
+import itemData from "../data/Itemdata";
+import Cards from "./Cards";
 
 const breakPoints = [
   { width: 500, itemsToShow: 1 },
@@ -26,17 +14,41 @@ const breakPoints = [
 ];
 
 export default function Imagelist() {
-  const classes = useStyles();
+  const theme = useTheme();
 
   return (
-    <div className={classes.root}>
-      <Carousel className={classes.slider} breakPoints={breakPoints} pagination={false} >
-        {
-          itemData.map((items) => (
-            <Cards image={items.img} title={items.title} description={items.description} url={items.url} view={items.view} />
-          ))
-        }
+    <Box
+      sx={{
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "space-around",
+        overflow: "hidden",
+        bgcolor: "background.paper",
+        px: { xs: 0.5, sm: 1 },
+        py: 1,
+      }}
+    >
+      <Carousel
+        breakPoints={breakPoints}
+        pagination={false}
+        itemPadding={[0, 6]} // top/bottom, left/right padding per item
+        style={{
+          width: "100%",
+          marginInline: "2px",
+        }}
+      >
+        {itemData.map((item, idx) => (
+          <Box key={item.id ?? item.view ?? item.title ?? idx} sx={{ px: 0.5 }}>
+            <Cards
+              image={item.img}
+              title={item.title}
+              description={item.description}
+              url={item.url}
+              view={item.view}
+            />
+          </Box>
+        ))}
       </Carousel>
-    </div>
+    </Box>
   );
 }

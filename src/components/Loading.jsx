@@ -1,26 +1,34 @@
-import React from 'react'
-import {makeStyles} from '@material-ui/core/styles';
-import CircularProgress from '@material-ui/core/CircularProgress';
+// Filename: Loading.jsx
+import React from "react";
+import { Box, CircularProgress, useTheme } from "@mui/material";
 
-const useStyles = makeStyles((theme) => ({
-    root: {
+export default function Loading({ size = 50, color = "secondary" }) {
+  const theme = useTheme();
+
+  return (
+    <Box
+      sx={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
         height: "100%",
-        '& > * + *' : {
-            marginLeft: theme.spacing(2),
-        },
-    },
-}));
-
-export default function CircularInderterminate() {
-    const classes = useStyles();
-
-    return (
-        <div className={classes.root} >
-            <CircularProgress color="secondary"/>
-        </div>
-    );
+        minHeight: "120px",
+        bgcolor: "transparent",
+      }}
+    >
+      <CircularProgress
+        size={size}
+        color={color}
+        thickness={4.2}
+        sx={{
+          animationDuration: "1.2s",
+          color:
+            color === "secondary"
+              ? theme.palette.secondary.main
+              : theme.palette.primary.main,
+        }}
+      />
+    </Box>
+  );
 }
